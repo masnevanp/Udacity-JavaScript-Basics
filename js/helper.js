@@ -219,7 +219,7 @@ function initializeMap() {
 
     // Iterates through the array of locations, creates a search object for each
     // location
-      locations.forEach(function(place){
+    locations.forEach(function(place){
       // the search request object
       var request = {
         query: place
